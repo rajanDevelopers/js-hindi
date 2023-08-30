@@ -1,0 +1,1 @@
+console.log("Gnanamani College of Technology");
