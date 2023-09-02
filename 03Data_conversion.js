@@ -45,5 +45,15 @@ let NonEmptyString = "RajanKumar"
 let BooleanNonEmptyString = Boolean(NonEmptyString)
 console.log(BooleanNonEmptyString);
 
-// "" ==> false ;
-// "NonString" ==> true ;
+// "" ==> false;
+// "NonString" ==> true;
+
+
+let Numb = Number("123")
+// console.log(Numb);
+// console.log(Object.keys(Numb));
+
+
+let value = 3;
+let NegValue = -value;
+ console.log(NegValue);
