@@ -69,7 +69,10 @@ console.log("Hello learner");
 
 console.log((Math.random() * 10) + 0.1);
 
+// Math.random() ==> ye Always 0 or  1 me value deta hai 
 console.log(Math.random());
+
+// 
 
 
 
