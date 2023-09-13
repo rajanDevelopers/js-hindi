@@ -15,13 +15,44 @@ let myCreate = new Date();
 // console.log(myCreate.getDate());
 // console.log(myCreate.getDay());
 // console.log(myCreate.getMonth());
-c// console.log(myCreate(Object.keys()));
+// console.log(myCreate(Object.keys()));
 
 
 // Date new Formate 
 
 let CreatedDate = new Date(2023,10,12);
-console.log(CreatedDate.toLocaleString());
+// console.log(CreatedDate.toLocaleString());
+
+let MyDateForm = new Date();
+// console.log(MyDateForm.toLocaleString());
+
+// Previous Month or Year ka Date Finding Method 
+
+let OldDate = new Date(2022,3,26);
+// console.log(OldDate.toString());
+
+//));
+
+let MyTimeStamp = Date.now();
+c//  onsole.log(MyTimeStamp);  
+
+// console.log(Date.now()/ 1000);
+// console.log(MyTimeStamp.sl);
+
+
+ let NewDate = new Date();
+ console.log(NewDate.getMonth());
+ console.log(NewDate.getDay(s));
+
+
+
+
+
+
+
+
+
+
 
 
 
