@@ -19,7 +19,7 @@ OneArray.pop();
  console.log(OneArray);
 
 
-// Array.unshift() ==> add the value in array in the First Index (first number) 
+// Array.unshift() ==> add the value in array in the First Index (zero index) 
 OneArray.unshift("Rajan");  // ==> ['Rajan', 1,3,7,8,9];
  console.log(OneArray);
 
@@ -51,6 +51,13 @@ OneArray.shift();  // ==> ['Rajan',1,3,7,8,9] == [1,3,7,8,9]
 let TwoArrayValue = TwoArray.splice(1, 5);
 console.log(TwoArrayValue);
 console.log("B", TwoArray);
+
+
+// Array.concat() ==> Addting the Two element Array 
+let Array1 = [0,2,3,5,6,7];
+let Array2 = [3,5,7,8,9];
+let NewArray3 = Array1.concat(Array2);
+console.log(NewArray3);
 
 
 
