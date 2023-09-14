@@ -14,7 +14,7 @@ OneArray.push(10);
  console.log(OneArray);
 
 
-// Array.pop() ==> remove the value from array 
+// Array.pop() ==> remove the value from array in Last value  
 OneArray.pop();
  console.log(OneArray);
 
