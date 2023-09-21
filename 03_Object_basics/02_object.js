@@ -72,7 +72,7 @@ const Obj3 = Object.assign({},Obj1,Obj2)
 console.log(Object.values(chairmen.Acedamic_director.principle.VicePrinciple.Hod.Advisor));
 console.log(Object.entries(chairmen.Acedamic_director.principle.VicePrinciple.Hod.Advisor));
 
-ObjectName.hasOwnProperty("ExitingValue") ==> ye always given the Boolean value 
+ObjectName.hasOwnProperty("ExitingValue") //  ==> ye always given the Boolean value 
  console.log(userLogin.hasOwnProperty("Address"));
 
 
