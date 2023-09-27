@@ -1,3 +1,5 @@
+/* 
+
 // console.log("Day 3 Function Basics");
 
 // How to pass the under of function Multiple value 
@@ -90,6 +92,83 @@ function ArrayFunction(ArrayFunction) {
 }
 
 console.log(ArrayFunction(MyArrayValue));
+
+
+}
+
+
+
+
+
+*/
+
+    // Pass the under of Array in the Function 
+
+    function ArrayFunction(ParameterName) {
+        return ParameterName
+
+    }
+
+     // console.log(ArrayFunction([100,'hitesh','mohan',106,109,'20cs109']));
+
+
+     // Another method in the Array inder the Function 
+
+     const MyArray = [`Name: Rajan kumar, RollNo : 20CS109,Dep: CSE`]
+
+     function ArrayReturnFunction(ArrayValue) {
+        return ArrayValue
+     }
+     console.log(ArrayReturnFunction(MyArray));
+
+
+
+
+
+
+
+
+
+function CreditCard(value1, value2,...num1) {
+    return value1,value2,num1
+
+}
+const creditValue = CreditCard(100,200,300,500,900)
+ console.log(creditValue);
+
+ const ObjectHandle = {
+    MentorName : "hitesh Sir",
+    coursePrice : 2500, 
+    courseName : "WEB"
+ }
+ 
+
+ function ObjectFunction (AnyObject) {
+        return `NameMentor => ${AnyObject.MentorName},
+         CourseName => ${AnyObject.courseName},
+        CoursePrice => ${AnyObject.coursePrice}`
+
+ }
+ console.log(ObjectFunction(ObjectHandle));
+
+
+
+function myFamily(members) {
+    // return members;
+    console.log(members);
+
+}
+ myFamily({
+    MyName : "Rajan Kumar", 
+    MyFatherName : "VidhyaNand Mahto",
+    MyMOMname : "Jaladhiya Devi",
+
+})
+
+
+
+
+
 
 
 
