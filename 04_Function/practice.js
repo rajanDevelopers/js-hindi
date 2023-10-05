@@ -58,10 +58,23 @@ const sumofitemValue = (value) => {
 // }
 // newFun(10,20,30,40);
 
-let initialValue = 0;
-let somFun = (...newRest) => {
-  const newdata = newRest.reduce((a, b) => a + b);
-  console.log(newdata);
-};
+// let initialValue = 0;
+// let somFun = (...newRest) => {
+//   const newdata = newRest.reduce((a, b) => a + b);
+//   console.log(newdata);
+// };
 
-somFun(50, 100, 800, 40, 52);
+// somFun(50, 100, 800, 40, 52);
+
+// const user = {
+//   1: "rajan",
+//   2: "rampravesh",
+//   true: "mohan",
+// };
+// console.log(user.true);
+
+// const someFun = new Map([
+//   ["1", "rampra"],
+//   ["2", "swwag"],
+// ]);
+// console.log(someFun.get("1"));
