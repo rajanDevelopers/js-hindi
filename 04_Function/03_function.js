@@ -1,4 +1,4 @@
-/* 
+
 
 // console.log("Day 3 Function Basics");
 
@@ -8,12 +8,11 @@
 
 
 // using rest Operator in under of Function 
-// function multipleCartValue (...item1) {
-
-//     return item1   
+ function multipleCartValue (...item1) {
+     return item1   
     
-// }
-// console.log(multipleCartValue(100,500,400,900));
+ }
+ console.log(multipleCartValue(100,500,400,900));
 
 
 
@@ -22,7 +21,7 @@ function calculateCart(num1,num2,num3,num4,...num5) {
     return num1,num2,num3,num4,num5
 
 }
-// console.log(calculateCart(10,100,600,700,152,960));
+ console.log(calculateCart(10,100,600,700,152,960));
 
 
 // use to object under of Function 
@@ -41,7 +40,7 @@ function  ObjectAccess(ObjectValueAccess) {
     RollNo : ${ObjectValueAccess.RollNO}, 
     Thank You `
 }
-// console.log(ObjectAccess(student));
+console.log(ObjectAccess(student));
 
 
 // Object use in the under of Function ==> Another Method Example 
@@ -100,7 +99,7 @@ console.log(ArrayFunction(MyArrayValue));
 
 
 
-*/
+
 
     // Pass the under of Array in the Function 
 
