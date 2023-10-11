@@ -1,1 +1,12 @@
-console.log("Hello Gnanamani College of Technology,Namakkal");
+// function one() {
+//     console.log('one')
+// }
+// function two() {
+//     console.log("two")
+// }
+// function three() {
+//     console.log("Three")
+// }
+// one()
+// two()
+// three()

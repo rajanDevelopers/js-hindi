@@ -78,3 +78,65 @@ const sumofitemValue = (value) => {
 //   ["2", "swwag"],
 // ]);
 // console.log(someFun.get("1"));
+
+// const username3 = "Rajan";
+// function Chai() {
+//   console.log(this.username3);
+// }
+// Chai();
+// console.log(this);
+
+/* const user = {
+  CourseName: "Full Stack Development ",
+  Prince: 12000,
+
+  messageOne: function () {
+    console.log(`${this.CourseName}, Welcome To your Course`);
+    console.log(this);
+  },
+};
+user.messageOne();
+user.CourseName = "Pyton By Web Development";
+user.Prince = 2000;
+user.messageOne();
+console.log(this);
+
+
+
+function chaiWala() {
+  console.log(this);
+}
+chaiWala();
+
+
+
+const chaiOne = () => {
+  let username = "Rjanj ";
+  console.log(this.username);
+};
+chaiOne();
+
+
+
+// Impliciate Metod
+
+const addOneValue = (num1, num2) => {
+  num1 + num2;
+};
+console.log(addOneValue(10, 20));
+
+
+const ArrowFunction = (num1, num2) => {
+  {
+    return num1 + num2;
+  }
+};
+console.log(ArrowFunction(100, 200));
+
+
+const AddTwoValue = (Num1, Num2) => {
+  username: "Rajan Kumar";
+};
+console.log(AddTwoValue(3, 10));
+ 
+*/
