@@ -1,5 +1,5 @@
 // Basics vlaue of the Truthy
-/* 
+
 const userEmailId = "rajan@gmail.com";
 
 if (!userEmailId) {
@@ -64,14 +64,12 @@ if (ZeoValueINStringUnder) {
   console.log("Zero is falsey value withOut the Dobble code/Single code ");
 }
 
-
 const FalseValue = "false";
 if (FalseValue) {
   console.log("Under of the double code that truthy vlaue ");
 } else {
   console.log("without double code this is Falsey Value ");
 }
-
 
 const ArrayValue = [];
 if (ArrayValue) {
@@ -80,7 +78,6 @@ if (ArrayValue) {
   console.log("No Array is not Truthy value");
 }
 
-
 const SecondArrayValue = [10, 15, 30];
 if (SecondArrayValue.length === 0) {
   console.log("Array is Full fill ");
@@ -88,12 +85,10 @@ if (SecondArrayValue.length === 0) {
   console.log("Array is Fully Empty ");
 }
 
-
 const userMail = [];
 if (userMail.length === 0) {
   console.log("Array is Fully Empty ");
 }
-
 
 // if check the {} Objecet value turyth hai ya nhi to
 // First Object {} ko Array me Convert Karna hoga
@@ -113,7 +108,6 @@ if (Object.keys(SecObjectValue).length === 0) {
   console.log("if write the Any thing Under Object is not truety value ");
 }
 
-
 // Truety vlaue me koi Function bhi ho sakta hai
 // Using the Arrow Function ==> () => { }
 const MyFunction = (num = 0) => {
@@ -125,7 +119,6 @@ const MyFunction = (num = 0) => {
 };
 MyFunction();
 
-*/
 // Using the normal Function
 
 const NormalFunction = function () {
