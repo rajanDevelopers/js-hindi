@@ -26,7 +26,7 @@ for (let i = 1; i <= 10; i++) {
     console.log(i + "*" + j + "= ", i * j);
   }
 }
-*/
+
 for (let i = 2; i <= 10; i++) {
   //  console.log(`Out loop Vlaue ${i}`);
   for (let j = 1; j <= i; j++) {
@@ -35,3 +35,76 @@ for (let i = 2; i <= 10; i++) {
     console.log(i + "* " + j + " = ", i * j);
   }
 }
+
+
+for (let i = 0; i <= 10; i++) {
+  const element = i;
+  if (i === 5) {
+    console.log("5 is the best number");
+  }
+  console.log(i);
+}
+
+
+// Loop under loop ==> inner loop
+
+for (let i = 0; i <= 10; i++) {
+  console.log(`Inner loop vlaue ${i}`);
+
+  for (let j = 0; j <= 10; j++) {
+    console.log(`Outer loop value: ${j}`);
+    console.log(`Inner Loop : ${i} && out loop ${j}`);
+  }
+}
+
+// Print the all Table 1 to 10;
+
+for (let i = 1; i <= 20; i++) {
+  console.log(`Inner loop value : ${i}`);
+
+  for (let j = 0; j <= 20; j++) {
+    //  console.log(`Outer loop value : ${j} `);
+
+    console.log(i + " * " + j + " = " + i * j);
+  }
+}
+
+
+const myHeroes = ["Ajay", "Devgon", "TigerSherof", "Pawan"];
+
+for (let i = 0; i < myHeroes.length; i++) {
+  const element = myHeroes[i];
+  console.log(element);
+}
+
+
+
+// Using break && continue keyword in loop
+
+for (let i = 0; i <= 10; i++) {
+  if (i === 5) {
+    // console.log(" 5 is the Best Number ");
+    break;
+  }
+  //  console.log(`This is i Value of : ${i}`);
+}
+
+for (let i = 0; i <= 10; i++) {
+  if (i === 5) {
+    console.log(" 5 is the Best Number ");
+    continue;
+  }
+  console.log(`This is i Value of : ${i}`);
+}
+
+
+// Another Example
+
+for (let i = 0; i <= 10; i++) {
+  console.log(`Inner Loop value :-  ${i}`);
+
+  for (let j = 0; j <= 10; j++) {
+    console.log(i + " * " + j + " = " + i * j);
+  }
+}
+*/
