@@ -1,19 +1,19 @@
 // These is the HigherOrder Loop ==> for of Loop  && for in Loop
-
+/* 
 const Greeting = ["Hello", "goodMornging", "Good Evening", "Good Night"];
 // for (const iterator of object) {
 
-// ==> iterator ==> variableName  && Object ==> kis par aap loop lagwant chahte hai
+// ==> iterator ==> variableName  && Object ==> kis par aap loop lagwana chahte hai
 // }
 
 for (const greet of Greeting) {
   console.log(greet);
 }
 
-// const NumbersValue = [1, 2, 3, 4, 56, 6];
-// for (const number of NumbersValue) {
-//   console.log(number);
-// }
+const NumbersValue = [1, 2, 3, 4, 56, 6];
+for (const number of NumbersValue) {
+  console.log(number);
+}
 
 const ArrayFirst = ["Js", "C++", "java", "python", "Ruby"];
 for (const Key of ArrayFirst) {
@@ -33,7 +33,7 @@ NewMap.set("jv", "Java");
 // result sab value alag alag Array ke form me aata hai
 
 for (const key of NewMap) {
-  // console.log(key);
+  console.log(key);
 }
 
 // key && keyValue dono ko print karne kae liye
@@ -42,17 +42,17 @@ for (const [key, value] of NewMap) {
   console.log(key, value);
 }
 
-// Kisi Object per for of loop laga sakte hai
+// Kisi Object per for of loop laga sakte hai kya
 
 const Student = {
-  " Name": "Rajan",
-  " Class": "CSE",
+  Name: "Rajan",
+  Class: "CSE",
   Reg: 78,
   RollNo: "20CS109",
 };
 
 for (const StudentKey1 of Student) {
-  //  console.log(StudentKey);
+  console.log(StudentKey);
 }
 
 // Hamlog kisi Bhi Object per for of loop ka use nahi kar sakte
@@ -93,6 +93,7 @@ for (const key in ForInLoopArr) {
 }
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++ forEac() ;
+*/
 const Coding = [
   {
     TeacherName: "Sangita Mam",
