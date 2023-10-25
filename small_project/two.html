@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+    scr
+    <h1>Event Registration Form</h1>
+    <form action="submit_registration.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+            <option value="event1">Event 1</option>
+            <option value="event2">Event 2</option>
+            <option value="event3">Event 3</option>
+        </select><br><br>
+        
+        <label for="attending">Will you be attending?</label>
+        <input type="radio" id="attending" name="attending" value="yes" required> Yes
+        <input type="radio" id="attending" name="attending" value="no" required> No<br><br>
+        
+        <label for="comment">Comments:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+    <script>
+        function validateForm() {
+            // Perform basic form validation here
+            let name = document.getElementById("name").value;
+           let email = document.getElementById("email").value;
+
+            if (name === "" || email === "") {
+                alert("Name and email are required fields.");
+                return false;
+            }
+
+            // You can add more validation here, e.g., email format, phone number format, etc.
+
+            // If the form is valid, show a confirmation message
+            document.getElementById("registrationForm").style.display = "none";
+            document.getElementById("confirmationMessage").style.display = "block";
+
+            return false; // Prevent the form from submitting to the server
+        }
+    </script>
+</body>
+</html>

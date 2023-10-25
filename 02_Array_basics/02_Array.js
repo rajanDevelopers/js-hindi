@@ -1,7 +1,6 @@
 // Another Method in Array
 
 // Array.push() ==> Array ke under Array include as the next element
-/* 
 
 let ArrayOne = ["rajan", "golu", "mohan", "jannai"];
 
@@ -77,7 +76,6 @@ let scope3 = 400;
 
 console.log(Array.of(scope1, scope2, scope3));
 
-
 // if Array name is Wrong then how correct using loop Condition
 
 let ArrayValue = ["Rajan", "Mohan", "sohan", "bablu", "sudhansuk", "babu"];
@@ -89,6 +87,3 @@ for (let index = 0; index < ArrayValue.length; index++) {
   }
 }
 console.log(ArrayValue);
-
-
-*/

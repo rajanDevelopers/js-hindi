@@ -1,5 +1,5 @@
 // Global Scopes ==> {  }
-/*
+
 {
   const num1 = 100;
   var num2 = 10;
@@ -111,7 +111,6 @@ const user = {
 };
 console.log(user.message());
 
-
 // this Method used
 const StudnetDeatils = {
   StudentName: "Rajan Kumar Mahto",
@@ -125,8 +124,7 @@ const StudnetDeatils = {
 StudnetDeatils.StudnetMessage();
 StudnetDeatils.StudentName = " Saurab Kumar ";
 StudnetDeatils.StudnetMessage();
-console.log(this);  // {}
-
+console.log(this); // {}
 
 function one() {
   let username = "Rajan kumar mahto ";
@@ -140,7 +138,7 @@ const ArroFunc = () => {
   console.log(this.username1);
 };
 ArroFunc();
-*/
+
 // ArroFunction hold
 
 const FunArrow = (num1, num2) => {
