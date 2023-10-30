@@ -5,9 +5,38 @@
     
     <title>Play With DOM </title>
 </head>
-<body>
-    <h1>Chai with Code in DOM</h1>
+<body bgcolor="black" style="color: white;">
+
+    <div id="div-id">
+
+        <!-- 
+# ==> title.innerHTML
+'Chai with Code in DOM  <span>This is under of Span Tag </span>'
+# ==> title.innerText
+'Chai with Code in DOM This is under of Span Tag'
+ # ==> title.textContent
+'Chai with Code in DOM  This is under of Span Tag '
+         -->
+
+    <h1 id="Heading1-id" class="heading-class">Chai with Code in DOM  <span>This is under of Span Tag </span></h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h2 id="heading2-id" class="h2-class">Lorem ipsum dolor sit amet <span>Lorem, ipsum dolor.</span></h2>
+    <h2 id="heading3-id" class="h3-class">Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
+    <h2 id="heading4-id" class="h4-class">Lorem, ipsum dolor.</h2>
     
+    </div>
+    <!--  different between innerText & TextContent
+    ==> kuch content agar hidden karke rakha gya hai 
+to wo InnerText ke thorough show Nahi karega 
+usme to TextContent ka use karna Parega usme content ko 
+hidden bhi rakhega to bhi show karega hi 
+ -->
+
+    <ul>
+        <li class="list-item">One</li>
+        <li class="list-item">Two</li>
+        <li class="list-item">Three</li>
+        <li class="list-item">Four</li>
+    </ul>
 </body>
 </html>
