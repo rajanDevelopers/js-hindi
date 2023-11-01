@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Manipulation Days 3</title>
+  </head>
+  <body></body>
+
+  <script>
+    let div = document.createElement("div");
+    // div.className = "div-class";
+    div.classList.add("tono");
+    const h1 = document.createElement("h1");
+    h1.textContent = "Hello Bro this is Heading Tag";
+    h1.id = "h1-id";
+    div.appendChild(h1);
+
+    // text add karne ka another method
+
+    const text = (document.createTextNode =
+      "Gnanmani College of Technology Student ");
+    h1.textContent = text;
+    console.log(div);
+
+    // Another Method for set the Any Attribute ==>
+    //  Variable.setAttribute('kya set karna', 'kisme set karna')
+
+    h1.setAttribute("id", "Myid");
+    console.log(div);
+
+    div.setAttribute("class", "Rajan");
+    console.log(div);
+
+    // console.log(div.textContent);
+  </script>
+</html>
