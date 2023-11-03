@@ -26,32 +26,32 @@
       // parent.childern me loop lagya
 
       for (let i = 0; i < parent.children.length; i++) {
-        // console.log(parent.children[i].innerHTML);
-        // parent.childern me color lagwane ke liye
+        console.log(parent.children[i].innerHTML);
+        //   parent.childern me color lagwane ke liye
       }
-      //   parent.children[2].style.color = "red";
-      //   parent.children[1].style.color = "orange";
+      parent.children[2].style.color = "red";
+      parent.children[1].style.color = "orange";
 
       // parent ke child ko catch karne ke liye ==> variabl.firstElementChild
       // ==> variable.lastElementChild
       // iske pass only firstElementChild && lastElementChild hota hai
 
-      //   const firstChild = parent.firstElementChild.innerText;
-      //   console.log(firstChild);
+      const firstChild = parent.firstElementChild.innerText;
+      console.log(firstChild);
 
-      //   const lastChild = parent.lastElementChild.innerText;
-      //   console.log(lastChild);
+      const lastChild = parent.lastElementChild.innerText;
+      console.log(lastChild);
 
-      //   for (let j = 0; j < lastChild.length; j++) {
-      //     console.log(parent[j]);
-      //   }
+      for (let j = 0; j < lastChild.length; j++) {
+        console.log(parent[j]);
+      }
 
       // children se parent ko Catch Karne ke liye
 
       const ChildDay = document.querySelector(".day");
-      //   console.log(ChildDay);
-      //   console.log(ChildDay.parentElement);
-      //   console.log(ChildDay.nextElementSibling.innerHTML);
+      console.log(ChildDay);
+      console.log(ChildDay.parentElement);
+      console.log(ChildDay.nextElementSibling.innerHTML);
 
       console.log("Nodes : ", parent.childNodes);
     </script>

@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dom Manipulation Days 3</title>
   </head>
-  <body></body>
+  <body style="background-color: #212121; color: #fff">
+    <!--  Through the JavaScript we are Creating the web pages  -->
+  </body>
 
   <script>
+    /*
     let div = document.createElement("div");
     // div.className = "div-class";
     div.classList.add("tono");
@@ -33,5 +36,100 @@
     console.log(div);
 
     // console.log(div.textContent);
+   
+
+    const div1 = document.createElement("div");
+    // console.log(div);
+    div1.className = "main";
+    div1.id = Math.round(Math.random() * 10 + 1);
+    div1.setAttribute("title", "dom-manp");
+    div1.style.backgroundColor = "green";
+    div1.style.padding = "25px";
+    div1.style.alignContent = "center";
+    div1.style.textAlign = "center";
+    div1.style.border = "3px solid purple";
+    // div.innerText = "Gnanamani College of Technology,Namakkal ";
+    // Another Method for given the text of under of Element
+    const textContent = document.createTextNode(
+      "Gnanamani College of Technology "
+    );
+    div1.appendChild(textContent);
+
+    document.body.appendChild(div);
+    console.log(div); 
+    
+
+    const ul = document.createElement("ul");
+    ul.setAttribute("class", "ul-class");
+    ul.setAttribute("id", "ul-id");
+    const TextVar = document.createTextNode(
+      "This is From Rajan Kumar CSE, IV Years"
+    );
+    // using style
+    ul.style.backgroundColor = "Green";
+    ul.style.color = "orange ";
+    ul.style.padding = "12px";
+    ul.appendChild(TextVar);
+    document.body.appendChild(ul);
+    console.log(ul.innerHTML);
+    */
+
+    let ulVar = document.createElement("ul");
+    ulVar.classList.add("first-class");
+    ulVar.textContent = "Days Name ";
+    // under of the ul li tag
+
+    for (let i = 0; i <= 6; i++) {
+      const liVar = document.createElement("li");
+      if (i == 0) {
+        liVar.textContent = "Sunday";
+      }
+      if (i == 1) {
+        liVar.textContent = "Monday";
+      }
+      if (i == 2) {
+        liVar.textContent = "Tuesday";
+      }
+      if (i == 3) {
+        liVar.textContent = "Wednesday";
+      }
+      if (i == 4) {
+        liVar.textContent = "Thursday";
+      }
+      if (i == 5) {
+        liVar.textContent = "Friday";
+      }
+      if (i == 6) {
+        liVar.textContent = "Saturday";
+      }
+
+      ulVar.appendChild(liVar);
+    }
+    // console.log(ulVar.children);
+    // ulVar.children;
+
+    let ulWithChidern = ulVar.children;
+
+    for (let j = 0; j < ulWithChidern.length; j++) {
+      console.log(ulWithChidern[j].innerHTML);
+    }
+    ulWithChidern[0].style.color = "yellow";
+    ulWithChidern[1].style.color = "green";
+    ulWithChidern[2].style.color = "pink";
+    ulWithChidern[3].style.color = "red";
+    ulWithChidern[4].style.color = "sky";
+    ulWithChidern[5].style.color = "orange";
+    ulWithChidern[6].style.color = "purple";
+
+    const firstChild = ulVar.firstElementChild.innerHTML;
+    console.log(`First-Child : ${firstChild}`);
+
+    const SecondChild = ulVar.lastElementChild.innerHTML;
+    console.log(`Second-Child : ${SecondChild}`);
+
+    // const Siblings = ulVar.nextElementSibling.innerHTML;
+    // console.log(`Siblings : ${Siblings}`);
+
+    document.body.appendChild(ulVar);
   </script>
 </html>
