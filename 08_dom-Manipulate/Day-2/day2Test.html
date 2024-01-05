@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuerySelector</title>
+  </head>
+  <body>
+    <img
+      src="https://pyxis.nymag.com/v1/imgs/69d/459/d267c20c109429f154ab283c8b6475a7eb-natalie-portman-thor.2x.rsocial.w600.jpg"
+      alt=""
+    />
+
+    <!-- <button onclick="AgainChange()">Change Image</button> -->
+    <!-- Using Another Method  -->
+    <button id="btn" onclick="imgeChange() ">change Image</button>
+  </body>
+
+  <script>
+    function imgeChange() {
+      let buttonVar = (document.querySelector("img ").src =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6FNMT9zQ-5DrQtA-XQxS5yN8kuCR36eduRz_2fvg_vS0jz0icpzXtxSWbIPq6sNICzdE&usqp=CAU ");
+      console.log(buttonVar);
+    }
+  </script>
+</html>

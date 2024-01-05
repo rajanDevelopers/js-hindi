@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project of Modal</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #open-model {
+        padding: 10px 30px;
+        background-color: skyblue;
+        border-radius: 20px;
+      }
+      .overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+      }
+      .popup {
+        width: 50%;
+        height: 500px;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      .popup h3 {
+        background-color: rgb(2, 63, 110);
+        padding: 15px;
+        color: #fff;
+        border-radius: 5px;
+      }
+      .popup p {
+        padding-top: 15px;
+        margin-left: 25px;
+      }
+
+      .popup button {
+        padding: 8px 20px;
+        background-color: skyblue;
+        border-radius: 10px;
+      }
+      .sub {
+        background-color: orangered;
+        border-radius: 1px;
+        padding: 8px;
+      }
+      .popup input {
+        padding: 8px 20px;
+      }
+      .span {
+        font-size: 20px;
+        color: rgba(6, 133, 133, 0.781);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay" id="overlay">
+      <div class="popup">
+        <button id="close-model">Close</button>
+        <h3>Join Thousands of Professional</h3>
+        <p>
+          Get the tools and skills needed to imporve your website. Subscribe to
+          the website Blog. <br />
+          <br />
+
+          <span class="email">Email Address </span><br />
+          <input
+            type="email"
+            name="Subscribe"
+            id="Subscribe"
+            placeholder="Enter Email"
+            title="Email"
+          />
+          <button class="sub">Subscribe</button>
+        </p>
+        <p>
+          We're committed to your privacy. HubSpot uses the information you
+          provide to us to contact you about our relevant content, products, and
+          servies, You may unsubscribe from these communications at time.For
+          more information, check out our
+          <span class="span">Privacy Policy</span>
+        </p>
+      </div>
+    </div>
+    <button id="open-model">Open Modal</button>
+
+    <script>
+      document
+        .getElementById("open-model")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "flex";
+        });
+
+      document
+        .getElementById("close-model")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "none";
+        });
+    </script>
+  </body>
+</html>

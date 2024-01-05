@@ -69,13 +69,21 @@ for (let i = 0; i < products.length; i++) {
   // h3.appendChild(textH3);
   h3.innerText = products[i].price;
 
+  let btn = document.createElement("button");
+  btn.innerText = "Buy ";
+  btn.style.fontSize = "20px";
+  btn.style.boder = "2px solid pink";
+  btn.addEventListener("click", function () {
+    console.log(products[i]);
+  });
   div.appendChild(h2);
   div.appendChild(h3);
+  div.appendChild(btn);
 
   document.body.appendChild(div);
   div.style.backgroundColor = " red";
   div.style.color = "black";
 
   document.getElementById("parent-id").appendChild(div);
-  console.log(div);
+  // console.log(div);
 }
