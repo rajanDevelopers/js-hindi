@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html EventListener </title>
+</head>
+
+<style>
+   
+</style>
+<body>
+        <h2>Amazing Image of Pixle</h2>
+
+        <div>
+
+            <ul id="images">
+                <li><img id="img1" width="200px" src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></li>
+                <li><img id="image2" width="200px" src="https://images.pexels.com/photos/3651495/pexels-photo-3651495.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></li>
+                <li><img id="image3" width="200px" src="https://images.pexels.com/photos/4121273/pexels-photo-4121273.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></li>
+                <li><a href="https://www.pexels.com/search/nature/"> pixcle Link </a></li>
+            </ul>
+    
+
+        </div>
+    
+</body>
+
+<script>
+
+    // document.getElementById('images').onclick = function(e) {
+    //     console.log(e.target.id)
+    // }
+
+        // Study Material 
+
+        // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // Using the addEvent listener 
+ 
+    document.getElementById('images').addEventListener('click', function(e) {
+        // e ==> Event Object milta hai chahe aap e name acording to you can put the name 
+        // console.log(e)
+        // console.log(e.y)
+        // console.log(e.srcElement)
+        // console.log(e.defaultPrevented) // true or false 
+
+        // ye dono sorce of image 
+        // console.log(e.target) 
+        // console.log(e.srcElement)
+
+
+        // console.log(e.toElement) // null 
+
+        console.log(e.currentTarget)
+
+    })
+
+    
+</script>
+</html>
