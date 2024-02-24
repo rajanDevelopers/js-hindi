@@ -49,7 +49,7 @@ function SayMyName() {
 SayMyName(); 
 
 
-// function islogged(user) {
+function islogged(user) {
 if(islogged ===undefined){
     console.log("Yes is The Same ");
 
