@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        height: 1500px; /* Set a height to the body for scrolling effect */
+      }
+
+      #progressBarContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: #ddd;
+        overflow: hidden;
+      }
+
+      #progressBar {
+        height: 100%;
+        width: 0;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+      }
+    </style>
+    <title>Scroll Progress Bar</title>
+  </head>
+  <body>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+
+    <!-- Content of the page goes here -->
+
+    <script src="second.js"></script>
+  </body>
+</html>

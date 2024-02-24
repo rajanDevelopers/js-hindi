@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      #todoList {
+        list-style: none;
+        padding: 0;
+      }
+
+      .todoItem {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .deleteBtn {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    </style>
+    <title>Simple To-Do App</title>
+  </head>
+  <body>
+    <h1>Simple To-Do App</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter your task" />
+    <button onclick="addTask()">Add Task</button>
+
+    <ul id="todoList"></ul>
+
+    <script src="01tudo.js"></script>
+  </body>
+</html>
