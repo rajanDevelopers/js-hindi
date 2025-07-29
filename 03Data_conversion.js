@@ -35,27 +35,41 @@ let IsLoggin = Boolean(Loggin);
 
 let sTringNumber = "100";
 
-let CheckData = Number(sTringNumber)
-// console.log( typeof CheckData);
+let CheckData = Number(sTringNumber);
+// console.log(typeof sTringNumber) => String;
+// console.log( typeof CheckData); =>Number;
 
 let EmptyString = ""
 let BooleanEmptyString = Boolean(EmptyString);
-// console.log(BooleanEmptyString);
+// console.log(EmptyString); => 0;
+// console.log(BooleanEmptyString); => False; 
 
 
 let NonEmptyString = "RajanKumar"
 let BooleanNonEmptyString = Boolean(NonEmptyString)
-console.log(BooleanNonEmptyString);
+console.log(BooleanNonEmptyString); // True 
+//#### Note :- 
+// "" ==> false; // Agar double code ke under kuch nhi hai to False Consider karga 
+// "NonString" ==> true; // Agar double code ke under koi bhi value hai to wo hamesa True consider karga 
+// "0" => true 
+// " " => True // double code ke under agar space hi denge to True hi consider karga 
 
-// "" ==> false;
-// "NonString" ==> true;
+let EmtyString = "0";
+let BooleanSting = Boolean(EmtyString);
+console.log(BooleanSting); // True
+console.log(typeof BooleanSting); // Boolean
 
 
 let Numb = Number("123")
-// console.log(Numb);
+// console.log(Numb); => 123
 // console.log(Object.keys(Numb));
+
+let Numb = Number("123");
+console.log(Numb); // 123
+console.log(typeof Numb); // Number 
+console.log(Object.keys(Numb)); // [] Object aayega 
 
 
 let value = 3;
 let NegValue = -value;
- console.log(NegValue);
+ console.log(NegValue); // -3 Hoga 
