@@ -16,7 +16,7 @@ let SomeNumber = 33;
 
 let stringName = String(SomeNumber)
 // console.log(stringName);
-// console.log(typeof StringName)
+// console.log(typeof StringName) ==> String DataType 
 
 let isLogged = 1;
 let LoggedForm = Boolean(isLogged)
