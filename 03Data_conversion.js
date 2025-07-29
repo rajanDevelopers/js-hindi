@@ -14,17 +14,19 @@ let Name = "Rajan Kumar Mahto"
 
 let SomeNumber = 33;
 
-let stringName = String(SomeNumber)
-// console.log(stringName);
+let stringName = String(SomeNumber);
+// console.log(stringName); => 33
 // console.log(typeof StringName) ==> String DataType 
 
 let isLogged = 1;
-let LoggedForm = Boolean(isLogged)
-// console.log(LoggedForm);
+let LoggedForm = Boolean(isLogged);
+// console.log(LoggedForm); => 1
+// console.log(typeof LoggedForm) => True;
 
 let Loggin = 0;
-let IsLoggin = Boolean(Loggin)
-// console.log(IsLoggin);
+let IsLoggin = Boolean(Loggin);
+// console.log(IsLoggin); =>0
+// console.log(typeof IsLoggin) ==> False;
 
 // Note 
 
